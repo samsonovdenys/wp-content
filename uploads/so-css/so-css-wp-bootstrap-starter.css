@@ -1,0 +1,37 @@
+#content.site-content {
+  padding-top: 0px;
+}
+
+.entry-content {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.entry-meta {
+  display: none;
+}
+
+.box.widget {
+  background-color: #563D7C;
+}
+
+b {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+.filter_input {
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#page-sub-header {
+  padding-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
