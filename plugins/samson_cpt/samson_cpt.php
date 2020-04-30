@@ -11,7 +11,7 @@ Author URI: http://websamsonov.it
 function samson_register_cpt_house() {
 
 	/**
-	 * Post Type: Объекты недвижимости.
+	 * Post Type: Объекты недвижимости 'cpt_house'.
 	 */
 
 	$labels = [
@@ -91,11 +91,5 @@ function samson_register_my_taxes_raion() {
 	register_taxonomy( "raion", [ "cpt_house" ], $args );
 }
 add_action( 'init', 'samson_register_my_taxes_raion' );
-
-
-
-
-
-
 
 ?>
